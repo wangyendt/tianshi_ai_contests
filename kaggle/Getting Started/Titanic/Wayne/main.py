@@ -16,7 +16,7 @@ from sklearn.svm import SVC
 
 
 def load_data(name='test'):
-    path = os.path.join('data', name + '.csv')
+    path = os.path.join('../data', name + '.csv')
     data = pd.read_csv(path)
     return data
 
